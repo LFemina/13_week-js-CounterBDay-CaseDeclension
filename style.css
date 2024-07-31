@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#btn {
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+}
+
+#error {
+    color: red;
+    font-size: bolder;
+}
