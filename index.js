@@ -25,6 +25,11 @@ function check() {
         } else {
             dayWord = 'дней';
         }
-        result.textContent = `До вашего дня рождения осталось ${dayTransform} ${dayWord}.`;
+
+        if (dayTransform === 0) {
+            result.textContent = 'С днём рождения! 🥳';
+        } else {
+            result.textContent = `До вашего дня рождения осталось ${dayTransform} ${dayWord}.`;
+        }
     }
 }
